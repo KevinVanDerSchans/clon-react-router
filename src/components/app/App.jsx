@@ -1,35 +1,8 @@
-import { useEffect } from 'react'
-import './App.css'
-import { useState } from 'react'
+import HomePage from '../../pages/Home/HomePage'
+import AboutPage from '../../pages/About/AboutPage'
+import { useState, useEffect } from 'react'
 import { EVENTS } from '../../constants'
-
-function navigate(href) {
-  window.history.pushState({}, '', href)
-  const navigationEvent = new Event(EVENTS.PUSHSTATE)
-  window.dispatchEvent(navigationEvent)
-}
-
-function HomePage() {
-  return (
-    <>
-      <h1>Practice - React Router</h1>
-
-      <p>HomePage page example</p>
-      <button onClick={() => navigate('/about')}>Go to About Us</button>
-    </>
-  )
-}
-
-function AboutPage() {
-  return (
-    <>
-      <h1>About</h1>
-
-      <p>About page example</p>
-      <button onClick={() => navigate('/')}>Go to Home</button>
-    </>
-  )
-}
+import './App.css'
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname)
