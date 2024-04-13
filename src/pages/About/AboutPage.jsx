@@ -1,4 +1,5 @@
 import { navigate } from '../../components/Link/Link'
+import { Link } from '../../components/Link/Link'
 
 export default function AboutPage() {
   return (
@@ -6,7 +7,7 @@ export default function AboutPage() {
       <h1>About</h1>
 
       <p>About page example</p>
-      <button onClick={() => navigate('/')}>Go to Home</button>
+      <Link to='/'>Go to Home</Link>
     </>
   )
 }

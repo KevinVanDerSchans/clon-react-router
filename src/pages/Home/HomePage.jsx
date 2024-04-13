@@ -1,4 +1,5 @@
 import { navigate } from '../../components/Link/Link'
+import { Link } from '../../components/Link/Link'
 
 export default function HomePage() {
   return (
@@ -6,7 +7,7 @@ export default function HomePage() {
       <h1>Practice - React Router</h1>
 
       <p>HomePage page example</p>
-      <button onClick={() => navigate('/about')}>Go to About Us</button>
+      <Link to='/about'>Go to About Us</Link>
     </>
   )
 }
