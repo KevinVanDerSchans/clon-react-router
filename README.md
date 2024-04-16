@@ -1,4 +1,4 @@
-# Practice - React Router
+# Clon - React Router
 
 ## ReactJS
 
@@ -16,7 +16,7 @@
 
 <div>
 
-Practice with React Router.
+This is a clon of React Router.
 
 </div>
 
@@ -31,7 +31,7 @@ DEPLOY LINK
 
 # Index
 
-- [Practice - React Router](#practice---react-router)
+- [Clon - React Router](#clon---react-router)
   - [ReactJS](#reactjs)
 - [Index](#index)
   - [Features](#features)
