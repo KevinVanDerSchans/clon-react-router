@@ -1,6 +1,6 @@
-# Practice - React Router
+# Clon - React Router
 
-## ReactJS
+## React Router / Vitest
 
 <br>
 
@@ -8,33 +8,27 @@
   <img
     src="public/readme/project-overview.png"
     alt="Project overview"
-    width="850"
+    width="350"
   >
 </div>
 
 <br>
+<br>
 
 <div>
 
-Practice with React Router.
+    Building a clone of the inner workings of React Router from scratch.
 
 </div>
-
-<br>
-
-**DEPLOY**:
-<br>
-DEPLOY LINK
 
 <br>
 <br>
 
 # Index
 
-- [Practice - React Router](#practice---react-router)
-  - [ReactJS](#reactjs)
+- [Clon - React Router](#clon---react-router)
+  - [React Router / Vitest](#react-router--vitest)
 - [Index](#index)
-  - [Features](#features)
   - [Technologies and Tools used](#technologies-and-tools-used)
   - [Project Setup](#project-setup)
     - [Compile and Hot-Reload for Development](#compile-and-hot-reload-for-development)
@@ -46,22 +40,17 @@ DEPLOY LINK
 
 <br>
 
-## Features
-
-<div>
-
-    ✔️ Features...
-
-</div>
-
-<br>
-
 ## Technologies and Tools used
 
 <div align="center">
   <br>
+    <a href="https://reactrouter.com/en/main" target="_blank" rel="noreferrer"> <img src="./public/readme/react-router.svg" alt="React Router" width="60" height="60" style="margin-right: 24px"/></a>
     <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="60" height="60" style="margin-right: 24px"/></a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60" style="margin-right: 24px" /></a>
+    <br>
+    <br>
+    <a href="https://vitest.dev/" target="_blank" rel="noreferrer"> <img src="./public/readme/vitest.svg" alt="Vitest" width="60" height="60" style="margin-right: 24px"/></a>
+    <a href="https://testing-library.com/" target="_blank" rel="noreferrer"> <img src="./public/readme/testing-library.svg" alt="Testing Library" width="60" height="60" style="margin-right: 24px"/></a>
   <br>
   <br>
 </div>
